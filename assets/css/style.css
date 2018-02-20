@@ -1,0 +1,220 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+body{
+	width: 1024px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	background-color: white;
+}
+
+.content-entire{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+h1{
+	font-weight: bold;
+}
+
+
+header{
+	width: 1020px;
+	height: 40px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+#header-name{
+	width: 210px;
+	float: left;
+	padding: 20px 10px 20px 30px;
+	position: relative;
+
+}
+
+.nav-site{
+	width: 200px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #ddd;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color: purple;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: red;
+
+}
+
+nav a:focus, a:active{
+	text-decoration: none;
+	color: black;
+	background-color: tan;
+}
+
+
+
+main{
+	width: 1020px;
+	border-top: 2px solid #dddddd;
+	clear: both;
+	height: 380px;
+	background-image: url("../images/intersection.png");
+	padding-top: 30px;
+}
+
+
+#portfolio-main{
+	height: 680px;
+}
+
+p{
+	padding: 4px;
+	line-height: 1.5;
+}
+
+.content-section{
+	width: 650px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+}
+
+.content-section h2{
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	background-color: white;
+	color: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#portfolio-box{
+	width: 500px;
+}
+
+#profile-pic{
+	float: left;
+	width: 130px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+#button-form{
+	background-color: #4aaaa5;
+	color: white;
+}
+
+
+.heading-portfolio{
+	width: 220px;
+	position: relative;
+	top: -35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+
+.image-wrapper{
+	float: left;
+	margin-right: 30px;
+}
+
+#portfolio-item-01,
+#portfolio-item-02,
+#portfolio-item-03,
+#portfolio-item-04,
+#portfolio-item-05{
+	width: 220px;
+	height: 170px;
+}
+
+#image-wrap-02,
+#image-wrap-04{
+	margin-right: 0;
+}
+
+.content-aside{
+	width: 270px;
+	float: right;
+	background-color: white;
+}
+
+.content-aside h3{
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	background-color: white;
+	color: #4aaaa5;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.nav-social{
+	position: relative;
+	left: 50px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+#social-01,
+#social-03{
+	width: 50px;
+	height: 50px;
+}
+
+#social-02{
+	width: 54px;
+	height: 54px;
+	margin-bottom: -1px;
+}
+
+footer {
+	width: 1020px;
+	background-color: #666666;
+	text-align: center;
+	padding: 15px;
+	color: white;
+	border-top: 5px solid #4aaaa5;
+	height: 50px;
+	clear: both;
+}
+
+footer p{
+	color: #dddddd;
+	font-size: small;
+	padding: 0;
+	line-height: 1.0;
+}
+
+
+
+
+
+
+
+
+
+
