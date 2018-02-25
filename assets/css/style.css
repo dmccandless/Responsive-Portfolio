@@ -126,27 +126,27 @@ p{
 	font-weight: bold;
 }
 
-#portfolio-box{
-	width: 500px;
-}
-
-#profile-pic{
+#profile-image{
 	float: left;
-	width: 130px;
-	height: 100px;
+	width: 200px;
+	height: 155px;
 	margin-right: 20px;
+	margin-top: 10px;
 }
 
 #button-form{
 	background-color: #4aaaa5;
 	color: white;
+	cursor: pointer;
+	padding: 10px 30px;
+	font-size: 18px;
 }
 
 
 .heading-portfolio{
-	width: 220px;
+	width: 100%;
 	position: relative;
-	top: -35px;
+	top: -60px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
@@ -154,23 +154,47 @@ p{
 
 
 .image-wrapper{
+	width: 274px;
+	overflow: auto;
+	position: relative;
 	float: left;
-	margin-right: 30px;
+	margin: 20px 10px 20px 10px;
 }
 
-#portfolio-item-01,
-#portfolio-item-02,
-#portfolio-item-03,
-#portfolio-item-04,
-#portfolio-item-05{
-	width: 220px;
-	height: 170px;
+.image-wrapper:nth-child(even){
+	margin-right: 10px;
 }
 
-#image-wrap-02,
-#image-wrap-04{
-	margin-right: 0;
+#portfolio-image-01,
+#portfolio-image-02,
+#portfolio-image-03,
+#portfolio-image-04,
+#portfolio-image-05{
+	width: 100%;
+	border: 0 none;
 }
+
+/*label,
+input[type=text],
+input[type=email],
+textarea{
+	display: block;
+	width: 100px;
+}
+
+textarea{
+	height: 200px;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+	height: 35px;
+	border: 1px solid $ddd;
+	padding: 0 10px;
+	font-size: 14px;
+}*/
+
 
 .content-aside{
 	max-width: 270px;
@@ -191,9 +215,8 @@ p{
 	padding-bottom: 10px;
 }
 
-
-.nav-social{
-
+.social-links{
+	margin-left: 9px;
 }
 
 .social{
@@ -208,8 +231,8 @@ p{
 }
 
 #social-02{
-	width: 62px;
-	height: 62px;
+	width: 63px;
+	height: 63px;
 	margin-bottom: -1px;
 }
 
