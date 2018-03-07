@@ -18,7 +18,7 @@ body{
 	max-width: 960px;
 	margin: 0 auto;
 	clear: both;
-	/*OK*/
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -41,7 +41,7 @@ h1{
 	position: fixed;
 	overflow: auto;
 	border-bottom: 2px solid #ccc;
-}/*OK*/
+}
 
 
 #brand{
@@ -54,13 +54,12 @@ h1{
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	line-height: 90px;
 	font-weight: bold;
-	/*font-size: 30px;*/
-}/*OK*/
+}
 
 nav {
 	float: right;
 	margin-top: 25px;
-}/*OK*/
+}
 
 nav a{
 	text-decoration: none;
@@ -70,11 +69,11 @@ nav a{
 	border-left: 1px solid #efefef;
 	padding-left: 15px;
 	line-height: 18px;
-}/*OK*/
+}
 
 nav a:first-child{
 	border-left: 0 none;
-}/*OK*/
+}
 
 nav a:visited{
 	text-decoration: none;
@@ -98,7 +97,6 @@ nav a:focus, a:active{
 #content-main{
 	border-top: 2px solid #dddddd;
 	padding-top: 130px;
-	/*OK*/
 }
 
 
@@ -115,7 +113,7 @@ p{
 	margin: 0 0 40px 0;
 	background-color: white;
 	border: 1px solid #ddd;
-}    /*OK*/
+}
 
 .content-section h2{
 	font-family: "Georgia", Times, "Times New Roman", serif;
@@ -174,27 +172,6 @@ p{
 	border: 0 none;
 }
 
-/*label,
-input[type=text],
-input[type=email],
-textarea{
-	display: block;
-	width: 100px;
-}
-
-textarea{
-	height: 200px;
-}
-
-input[type=text],
-input[type=email],
-textarea{
-	height: 35px;
-	border: 1px solid $ddd;
-	padding: 0 10px;
-	font-size: 14px;
-}*/
-
 
 .content-aside{
 	max-width: 270px;
@@ -204,7 +181,7 @@ textarea{
 	padding: 30px;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
-}/*OK*/
+}
 
 .content-aside h3{
 	font-family: "Georgia", Times, "Times New Roman", serif;
